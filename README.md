@@ -28,3 +28,5 @@ create user for your db -> `db.createUser({'user':'appuser', 'pwd':'', roles:['r
 or with readonly acces -> `db.createUser({'user':'appuser', 'pwd':'', roles:['read']});`
 
 update user data -> `db.updateUser('appuser', {'pwd':'newp455w0rd', roles:['readWrite']});`
+
+https://scalegrid.io/blog/getting-started-with-user-management-in-mongodb/
