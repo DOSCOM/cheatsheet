@@ -18,6 +18,8 @@ display log
 
 
 # Mongo console
+`mongo --port 27017 -u "root" -p --authenticationDatabase "admin"`
+
 
 ## Add user to a database
 
