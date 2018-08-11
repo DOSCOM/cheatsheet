@@ -16,3 +16,13 @@ start app
 display log
 `pm2 logs id --line 400`
 
+
+# Mongo console
+
+## Add user to a database
+
+create your db -> `use applicationdb;`
+
+create user for your db -> `db.createUser({'user':'appuser', 'pwd':'', roles:['readWrite']});`
+
+or with readonly acces -> `db.createUser({'user':'appuser', 'pwd':'', roles:['read']});`
