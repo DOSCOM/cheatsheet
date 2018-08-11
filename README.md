@@ -26,3 +26,5 @@ create your db -> `use applicationdb;`
 create user for your db -> `db.createUser({'user':'appuser', 'pwd':'', roles:['readWrite']});`
 
 or with readonly acces -> `db.createUser({'user':'appuser', 'pwd':'', roles:['read']});`
+
+update user data -> `db.updateUser('appuser', {'pwd':'newp455w0rd', roles:['readWrite']});`
